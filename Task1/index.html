@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list Web app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header> My To Do List </header>
+        <div class="inputField">
+            <input type="text" placeholder="Add Your New To Do">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+
+        <ul class="list">
+            <!--  this is for css purpose i hade used <li>Buy a new gaming pc. <span><i class="fas fa-trash"></i></span></li>
+            <li>Complete the previous task . <span><i class="fas fa-trash"></i></span></li>
+            <li>MaKE A VIDEO ON youtube <span><i class="fas fa-trash"></i></span></li> -->
+
+            <!-- Data comes from local storages -->
+
+        </ul>
+
+        <footer>
+            <span>You Have a <span class="pendingNumb"></span> Pending Task.</span>
+            <button>Clear All.</button>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
